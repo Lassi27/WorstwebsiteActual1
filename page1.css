@@ -1,0 +1,82 @@
+body{
+    padding:0;
+    margin:0;
+    fornt-family: "Helvetica", san-serif;
+    font-weight: 100;
+    box-sizing: border-box;
+    border: 50px;
+    background-color:#8f99b5;
+}
+
+header{
+    width: 100%;
+    text-align:center;
+    color: white;
+    height: 150px;
+    padding: 50px ;
+    background-color:#497fb7;
+}
+
+nav{
+    clear:both;
+}
+
+nav li{
+    display: inline;
+    color: #333;
+    padding: 20px;
+    float: right;
+    list-style: none;
+    background-color: #5e628b ;
+}
+img{
+    border-radius: 20%;
+    float: left;
+    width: 200px;
+    margin: 5px;
+    display: inline;
+}
+
+
+
+article{
+    display: inline;
+    clear:both;
+    padding:30px 60px;
+    width: Auto;
+    background-color:#497fb7;
+
+}
+
+footer{
+    display: inline;
+    background-color: 	#d3bc77	;
+    border: 1px ;
+    clear: both;
+    padding: 30px 60px;
+    margin: 100px;
+}
+
+h1{
+    text-align: center;
+}
+/*
+@media not screen {
+    nav,footer{
+        display:none;
+    }
+    a{
+        text-decoration:none;
+        color: inherit;
+    }
+}
+ */
+/*
+"," = ||
+shown below is logic gate performed by media query
+ */
+@media not screen, screen and (max-width:400px){
+    nav,footer{
+        display:none;
+    }
+}
